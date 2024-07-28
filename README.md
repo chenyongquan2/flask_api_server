@@ -22,3 +22,8 @@ https://flask.palletsprojects.com/en/3.0.x/tutorial/database/
 创建数据库实例:
 flask --app flaskr-v2 init-db
 会在instance目录里面多出来一个.sqllite的文件
+
+v3:
+CURD实现:
+通过post，get，put，delete进行create，read，delete，update的操作。
+其实一般不会直接写裸sql，不同框架都有成熟的orm（比如sqlalchemy），后面了解一下。
