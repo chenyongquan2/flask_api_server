@@ -11,7 +11,7 @@
 
 from flask import Flask, request
 
-
+#创建默认的app实例
 app = Flask(__name__)
 
 
